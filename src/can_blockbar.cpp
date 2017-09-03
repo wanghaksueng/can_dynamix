@@ -403,7 +403,7 @@ int main(int argc, char **argv)
     ROS_INFO("processing");
 #endif
     ros::spinOnce();
-   // ros::spin();
+   // ros::spin();//
     loop_rate.sleep();
 
 
